@@ -1,6 +1,6 @@
 name: 'Remote SSH Commands'
 description: 'Run remote ssh commands'
-author: 'fifsky@gmail.com'
+author: 'revaz.bolataev@mail.ru'
 inputs:
   command:
     description: "Command to execute on the remote server."
