@@ -1,5 +1,5 @@
-name: 'Remote SSH Commands'
-description: 'Run remote ssh commands'
+name: 'Docker SSH Commands'
+description: 'Run Docker ssh commands'
 author: 'revaz.bolataev@mail.ru'
 inputs:
   command:
