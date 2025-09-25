@@ -1,9 +1,9 @@
-FROM alpine:latest
-RUN apk update && \
-  apk add --no-cache ca-certificates \
+FROM ubuntu:latest
+RUN apt-get update && \
+  apt-get install -y ca-certificates \
   openssh-client \
-  sshpass \
-  bash
+  sshpass
+  # bash
 
 COPY LICENSE README.md /
 
