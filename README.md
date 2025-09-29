@@ -45,11 +45,3 @@ Check out [the workflow example](.github/workflows/test.yml) for a minimalistic 
 > Password and Private Key can only be configured one item
 
 
-If you need to add some extra SSH parameters, you can setting the args option.
-
-For example, add `-tt` parameter to solve: https://github.com/fifsky/ssh-action/issues/4
-
-```
-Pseudo-terminal will not be allocated because stdin is not a terminal.
-```
-
