@@ -53,17 +53,3 @@ For example, add `-tt` parameter to solve: https://github.com/fifsky/ssh-action/
 Pseudo-terminal will not be allocated because stdin is not a terminal.
 ```
 
-## Tips
-
-If emitting "mesg: ttyname failed: Inappropriate ioctl for device", You need to modify your Linux files as follows
-
-```
-vim /root/.profile
-// Modify the "mesg n || true"  to "tty -s && mesg n || true"
-```
-
-
-## Thanks
-
-Documentation and parameters design from:
-https://github.com/garygrossgarten/github-action-ssh
